@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-color: #222B3D;
+    --header-second: #232A37;
+    --text-color: #FFFFFF;
+
+    --font-family: Open Sans;
+
+    --font-small: 14px;
+    --font-regular: 20px;
+    --font-large: 24px;
+
+    --font-weight-regular: 600;
+    --font-weight-large: 700;
+
+
+
+}
+
+.navbar-first {
+    display: flex;
+    background: var(--header-color);
+    justify-content: space-between;
+    padding: 16px 16px 8px 8px;
+
+
+}
+
+
+.navbar-first .nav-logo {
+    margin-top: 6px;
+    float: left;
+    align-items: center;
+
+}
+
+.navbar-first .search #input {
+    background-color: aliceblue;
+    width: 60rem;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+}
+
+.navbar-first .logincart {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-first .logincart p,
+.navbar-first .logincart #login {
+    font-size: var(--font-regular);
+    color: var(--text-color);
+}
+
+
+
+.navbar-first .logincart #cart-container {
+    display: flex;
+    gap: 6px;
+}
+
+.navbar-second .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    border-top: 2px solid white;
+    background-color: var(--header-second);
+
+    padding: 4px 16px 4px 16px;
+
+
+}
+
+.navbar-second .nav-menu a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: var(--font-regular);
+}
+
+.navbar-second .nav-menu a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.navbar-second .nav-menu a.active {
+    background-color: cornflowerblue;
+}
