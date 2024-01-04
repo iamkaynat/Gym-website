@@ -14,7 +14,7 @@ const LoginSignup = () => {
                             <input id="email" type="email" placeholder="Enter your password" name="email" required />
                         </div>
                         <div className="remember-forgot">
-                            <label><input type="checkbox" name="remember" />Remember Me</label>
+                            <label id="rr"><input type="checkbox" name="remember" />Remember Me</label>
                             <a href=" " >Forgot Password?</a>
                         </div>
                         <button type="submit">Log in</button>

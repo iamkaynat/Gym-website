@@ -4,7 +4,11 @@
     align-items: center;
     min-height: 100vh;
     padding: 10px;
-    background: url('../Assests/b.png');
+    background: url('../Assests/b.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
 
 
 }
@@ -12,7 +16,7 @@
 .wrapper {
     width: 25%;
     border-radius: 20px;
-    background-color: aliceblue;
+    background-color: rgba(132, 132, 132, 0.626);
     padding: 5px;
     color: black;
     padding: 30px 40px;
@@ -21,6 +25,7 @@
 .wrapper h1 {
     font-size: 24px;
     text-align: center;
+    color: white;
 }
 
 .wrapper .input-box {
@@ -37,13 +42,13 @@
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid grey;
+    border: 2px solid white;
     border-radius: 40px;
     padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder {
-    color: grey;
+    color: rgb(190, 190, 190);
     padding: 5px;
 }
 
@@ -54,13 +59,14 @@
     margin: -15px 0 15px;
 }
 
-.remember-forgot label input {
-    color: grey;
-    margin-right: 4px;
+.remember-forgot #rr {
+    color: rgb(190, 190, 190);
+    font-size: 16px;
+
 }
 
 .remember-forgot a {
-    color: grey;
+    color: rgb(190, 190, 190);
     text-decoration: none;
 }
 
@@ -89,12 +95,14 @@
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
+    color: white;
 
 
 }
 
+
 .register-link p a {
-    color: grey;
+    color: rgb(190, 190, 190);
     text-decoration: none;
     font-weight: 600;
 
