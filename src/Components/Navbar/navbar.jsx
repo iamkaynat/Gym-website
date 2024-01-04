@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import './navbar.css';
 import Logo from '../Assests/Logo.png';
 import Cart from '../Assests/cart_icon.png';
@@ -14,8 +15,8 @@ const NavBar = () => {
 
                 </div>
                 <div className="logincart">
-                    <a id="login" href=" "> Log in / Register</a>
-                    <div id="cart-container"><p>Cart</p><img id="cart-icon" src={Cart} alt="" /></div>
+                    <Link to="/login"><button> Log in</button></Link>
+                    <Link to="/cart"><div id="cart-container"><p>Cart</p><img id="cart-icon" src={Cart} alt="" /></div></Link>
 
                 </div>
 
