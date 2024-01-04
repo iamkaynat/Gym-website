@@ -8,16 +8,21 @@ const LoginSignup = () => {
                     <h1>Log in</h1>
                     <div className="loginsignup-fields">
                         <div className="input-box">
-                            <input id="name" type="text" placeholder="Enter your name" name="name" required />
+                            <label for="phone" id="rr">Enter your mobile number</label>
+                            <input id="name" name="phone" placeholder="Enter your Number" required />
                         </div>
-                        <div className="input-box">
-                            <input id="email" type="email" placeholder="Enter your password" name="email" required />
+
+
+                        <button id="continue" type="submit">Continue</button>
+
+                        <div className="line"></div>
+                        <button id="google" type="submit"> Login with Google</button>
+                        <div className="terms">
+                            <label id="text"><input type="checkbox" />By Continuing, you agree to D-Fit Nutrition terms of use and privacy policy. </label>
                         </div>
-                        <div className="remember-forgot">
-                            <label id="rr"><input type="checkbox" name="remember" />Remember Me</label>
-                            <a href=" " >Forgot Password?</a>
-                        </div>
-                        <button type="submit">Log in</button>
+
+
+
                         <div className="register-link">
                             <p>Don't have an account? <a href=" ">Register</a></p>
                         </div>
