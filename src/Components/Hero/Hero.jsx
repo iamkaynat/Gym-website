@@ -9,9 +9,13 @@ const Hero = () => {
         <div className="hero">
             <div className="hero-left">
                 <div className="content">
-                    <img id="logo" src={logo} alt="Logo" />
-                    <p>Mass and weight gainers </p>
-                    <p>up to 50% off</p>
+                    <div className="txt-logo">
+                        <p><span className="highlight">D FIT</span> Nutrition</p>
+                    </div>
+                    <div className="offer">
+                        <p className="discount-text">Mass and weight gainers </p>
+                        <p>up to 50% off</p>
+                    </div>
                 </div>
                 <div className="product-icon">
                     <img src={product} alt="ProductImage" />

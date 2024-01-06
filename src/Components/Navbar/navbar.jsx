@@ -15,7 +15,7 @@ const NavBar = () => {
 
                 </div>
                 <div className="logincart">
-                    <Link to="/login"><button> Log in</button></Link>
+                    <Link to="/login"><button> Login / Register </button></Link>
                     <Link to="/cart"><div id="cart-container"><p>Cart</p><img id="cart-icon" src={Cart} alt="" /></div></Link>
 
                 </div>

@@ -32,6 +32,7 @@
 
 
 .navbar-first .nav-logo {
+    margin-left: 15px;
     margin-top: 6px;
     float: left;
     align-items: center;
@@ -41,8 +42,10 @@
 .navbar-first .search #input {
     background-color: aliceblue;
     width: 60rem;
-    padding: 6px;
-    margin-top: 8px;
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 6px;
     font-size: 17px;
     border: none;
     border-radius: 15px;
@@ -53,6 +56,14 @@
     align-items: center;
     gap: 30px;
 }
+
+.logincart button{
+    background: var(--header-color);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
 
 .navbar-first .logincart p,
 .navbar-first .logincart #login {
