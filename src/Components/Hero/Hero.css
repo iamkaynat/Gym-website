@@ -1,0 +1,77 @@
+.hero {
+    background: url('../Assests/b-header.png');
+    height: 83vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+
+}
+
+.hero-left .content {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    margin-left: 130px;
+}
+
+.hero-left .content #logo {
+
+    margin: 40px 0 40px;
+    width: 158px;
+    height: 40px;
+}
+
+.hero-left .content p {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.product-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.product-icon img {
+    width: 500px;
+}
+
+.shop-now-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: blue;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-right img {
+    height: 100%;
+}
